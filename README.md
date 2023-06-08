@@ -1,7 +1,7 @@
 # With Fontend : https://fakecoder.tech/funnelhq/
 # Deployed URL : https://funnelhq.pythonanywhere.com
 
-## Deatailed API Docs : https://pinkushaw.stoplight.io/docs/funnelhq/d3a0b016e2d8a-funnelhq
+## Deatailed API Docs : https://pinkushaw.stoplight.io/docs/funnelhq/08daa5e33dfde-new-user-signup
 
 
 API DOCUMENTATION:
