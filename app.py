@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify, g
 import sqlite3, bcrypt, os, jwt
 from datetime import datetime, timedelta
-
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+CORS(app)
+
 secret_key = os.urandom(24)
 app.config['SECRET_KEY'] = secret_key # for session encryption
 
@@ -174,7 +176,6 @@ def get_task(user_id, task_id):
     }
 
     return jsonify(task_dict), 200
-
 
 # update a particular task
 @app.route('/tasks/<int:task_id>', methods=['PUT'])

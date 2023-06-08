@@ -1,3 +1,4 @@
 flask
 jwt
 bcrypt
+flask-cors
